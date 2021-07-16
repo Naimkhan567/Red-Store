@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#back-img {
+    background: radial-gradient(#fff ,#ffd6d6);
+}
+#back-img .text  {
+    margin-top: 10%;
+}
+#back-img a {
+    border-radius: 20px;
+}
+#product-features .col-md-3 {
+    transition: transform 0.5s;
+}
+#product-features .col-md-3:hover {
+    transform: translateY(-10px);
+}
+#product-features .fas, .far {
+    color: #fdc408;
+}
